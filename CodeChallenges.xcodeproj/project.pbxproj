@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		7C64B6351FFE5EFE00EB7D46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64B6341FFE5EFE00EB7D46 /* AppDelegate.swift */; };
-		7C64B6371FFE5EFE00EB7D46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64B6361FFE5EFE00EB7D46 /* ViewController.swift */; };
 		7C64B63A1FFE5EFE00EB7D46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C64B6381FFE5EFE00EB7D46 /* Main.storyboard */; };
 		7C64B63C1FFE5EFE00EB7D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C64B63B1FFE5EFE00EB7D46 /* Assets.xcassets */; };
 		7C64B63F1FFE5EFE00EB7D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C64B63D1FFE5EFE00EB7D46 /* LaunchScreen.storyboard */; };
+		7C64B6471FFE5FCD00EB7D46 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64B6461FFE5FCD00EB7D46 /* HomeViewController.swift */; };
+		7C64B65D1FFE630900EB7D46 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64B65A1FFE630900EB7D46 /* CloseButton.swift */; };
+		7C64B65E1FFE630900EB7D46 /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64B65B1FFE630900EB7D46 /* TagListView.swift */; };
+		7C64B65F1FFE630900EB7D46 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64B65C1FFE630900EB7D46 /* TagView.swift */; };
+		7C64B6621FFE643900EB7D46 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64B6611FFE643800EB7D46 /* UIView+Extensions.swift */; };
+		7C64B6661FFE692C00EB7D46 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64B6651FFE692C00EB7D46 /* PersonViewController.swift */; };
+		7C64B6691FFE6A5700EB7D46 /* PersonDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64B6681FFE6A5700EB7D46 /* PersonDisplay.swift */; };
+		7C64B66B1FFE70E900EB7D46 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64B66A1FFE70E900EB7D46 /* UIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C64B6311FFE5EFE00EB7D46 /* CodeChallenges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeChallenges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C64B6341FFE5EFE00EB7D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C64B6361FFE5EFE00EB7D46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C64B6391FFE5EFE00EB7D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C64B63B1FFE5EFE00EB7D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C64B63E1FFE5EFE00EB7D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C64B6401FFE5EFE00EB7D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C64B6461FFE5FCD00EB7D46 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7C64B65A1FFE630900EB7D46 /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		7C64B65B1FFE630900EB7D46 /* TagListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
+		7C64B65C1FFE630900EB7D46 /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		7C64B6611FFE643800EB7D46 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		7C64B6651FFE692C00EB7D46 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		7C64B6681FFE6A5700EB7D46 /* PersonDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDisplay.swift; sourceTree = "<group>"; };
+		7C64B66A1FFE70E900EB7D46 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,53 @@
 		7C64B6331FFE5EFE00EB7D46 /* CodeChallenges */ = {
 			isa = PBXGroup;
 			children = (
+				7C64B6641FFE691E00EB7D46 /* PersonController */,
+				7C64B6601FFE642300EB7D46 /* Extensions */,
+				7C64B6591FFE630900EB7D46 /* TagList */,
 				7C64B6341FFE5EFE00EB7D46 /* AppDelegate.swift */,
-				7C64B6361FFE5EFE00EB7D46 /* ViewController.swift */,
 				7C64B6381FFE5EFE00EB7D46 /* Main.storyboard */,
 				7C64B63B1FFE5EFE00EB7D46 /* Assets.xcassets */,
 				7C64B63D1FFE5EFE00EB7D46 /* LaunchScreen.storyboard */,
 				7C64B6401FFE5EFE00EB7D46 /* Info.plist */,
+				7C64B6461FFE5FCD00EB7D46 /* HomeViewController.swift */,
 			);
 			path = CodeChallenges;
+			sourceTree = "<group>";
+		};
+		7C64B6591FFE630900EB7D46 /* TagList */ = {
+			isa = PBXGroup;
+			children = (
+				7C64B65A1FFE630900EB7D46 /* CloseButton.swift */,
+				7C64B65B1FFE630900EB7D46 /* TagListView.swift */,
+				7C64B65C1FFE630900EB7D46 /* TagView.swift */,
+			);
+			path = TagList;
+			sourceTree = SOURCE_ROOT;
+		};
+		7C64B6601FFE642300EB7D46 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7C64B6611FFE643800EB7D46 /* UIView+Extensions.swift */,
+				7C64B66A1FFE70E900EB7D46 /* UIImageView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7C64B6641FFE691E00EB7D46 /* PersonController */ = {
+			isa = PBXGroup;
+			children = (
+				7C64B6671FFE6A3E00EB7D46 /* Model */,
+				7C64B6651FFE692C00EB7D46 /* PersonViewController.swift */,
+			);
+			path = PersonController;
+			sourceTree = "<group>";
+		};
+		7C64B6671FFE6A3E00EB7D46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7C64B6681FFE6A5700EB7D46 /* PersonDisplay.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +189,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C64B6371FFE5EFE00EB7D46 /* ViewController.swift in Sources */,
+				7C64B6621FFE643900EB7D46 /* UIView+Extensions.swift in Sources */,
+				7C64B66B1FFE70E900EB7D46 /* UIImageView.swift in Sources */,
+				7C64B65D1FFE630900EB7D46 /* CloseButton.swift in Sources */,
+				7C64B65F1FFE630900EB7D46 /* TagView.swift in Sources */,
+				7C64B6691FFE6A5700EB7D46 /* PersonDisplay.swift in Sources */,
 				7C64B6351FFE5EFE00EB7D46 /* AppDelegate.swift in Sources */,
+				7C64B6471FFE5FCD00EB7D46 /* HomeViewController.swift in Sources */,
+				7C64B65E1FFE630900EB7D46 /* TagListView.swift in Sources */,
+				7C64B6661FFE692C00EB7D46 /* PersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,11 +337,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GBRMF3XZ9K;
 				INFOPLIST_FILE = CodeChallenges/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.longhoang.CodeChallenges;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,11 +353,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GBRMF3XZ9K;
 				INFOPLIST_FILE = CodeChallenges/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.longhoang.CodeChallenges;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
